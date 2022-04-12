@@ -1,10 +1,6 @@
-/*
- * File: 104-fibonacci.c
- * Auth: Michael Ndungu Kamotho
- */
 #include "main.h"
 #include <stdio.h>
-/*Function Prototype*/
+
 void fibonacci(void);
 
 /**
@@ -13,14 +9,14 @@ void fibonacci(void);
  *
  * Return void
  */
-
-int main(void){
-
+int main(void)
+{
 	fibonacci();
 	return 0;
 }
 
-void fibonacci(void){
+void fibonacci(void)
+{
 	int count;
 	int number = 1;
 	int prevNumber = 0;
